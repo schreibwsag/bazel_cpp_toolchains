@@ -63,7 +63,7 @@ build:target_config_3 --platforms=@score_bazel_platforms//:aarch64-linux-gcc_12.
 build:target_config_3 --extra_toolchains=@score_aarch64_gcc_toolchain//:aarch64-linux-gcc_12.2.0
 
 # -------------------------------------------------------------------------------
-# Toolchain configuration for aarch64-linux (target)
+# Toolchain configuration for x86_64-linux-autosd10 (target)
 # -------------------------------------------------------------------------------
 build:target_config_4 --config=host_config_1
 build:target_config_4 --platforms=@score_bazel_platforms//:x86_64-linux-autosd10
